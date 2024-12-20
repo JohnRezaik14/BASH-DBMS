@@ -35,3 +35,27 @@ Ensure that you have Bash installed on your system. BASH-DBMS is designed to run
 
    ```bash
    git clone https://github.com/JohnRezaik14/BASH-DBMS.git
+   
+2. **Navigate to the Project Directory:**:
+
+   ```bash
+    cd BASH-DBMS
+   
+3. **Set Permissions:**:
+
+  1.
+     ```bash
+     chmod +x dbms.sh:
+     chmod -R u+rx lib/
+   
+  2.**Database Directory permissions:**:
+ 
+   ```bash
+     chmod -R u+rwx database_name/
+ 
+4.Running the Application
+           ```bash
+    ./dbms.sh
+
+
+  
