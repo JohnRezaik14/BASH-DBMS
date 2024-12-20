@@ -43,19 +43,17 @@ Ensure that you have Bash installed on your system. BASH-DBMS is designed to run
    
 3. **Set Permissions:**:
 
-  1.
      ```bash
      chmod +x dbms.sh:
      chmod -R u+rx lib/
-   
-  2.**Database Directory permissions:**:
+
+**Database Directory permissions:**:
  
-   ```bash
-     chmod -R u+rwx database_name/
+       chmod -R u+rwx database_name/
  
 4.Running the Application
-           ```bash
-    ./dbms.sh
+  ```bash
+      ./dbms.sh
 
 
   
